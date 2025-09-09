@@ -1,4 +1,6 @@
 import Link from "next/link";
+import StudentInfo from "./week-2/student-info";
+import Page from "./week-2/page";
 
 export default function Home(){
 
