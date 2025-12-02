@@ -7,9 +7,9 @@ import {styles} from "react"
 
 export default function Home(){
 
-  let pageStyles ="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-red-50 via-pink-400 to-blue-900 text-center rounded-3xl" ;
-  let buttonStyles= "bg-gradient-to-r from-red-900 via-purple-400 to-red-900 p-2 m-1 font-bold hover:from-red-300 hover:via-red-600 hover:to-red-950 rounded-3xl p-8 opacity-60 outline-2 drop-shadow-lg";
-  let titleStyle= "font-bold text-4xl mb-8 drop-shadow-lg";
+  let pageStyles ="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-red-50 via-pink-400 to-blue-900 text-center";
+  let buttonStyles= "bg-gradient-to-r from-red-900 via-purple-400 to-red-900 p-2 m-1 font-bold hover:from-red-300 hover:via-red-600 hover:to-red-950 rounded-3xl p-5 m-2 opacity-60 outline-2 drop-shadow-lg";
+  let titleStyle= "font-bold text-4xl mb-8 p-4 drop-shadow-lg";
   let rowStyles = "flex flex-row justify-center";
 
   const weeks = [
