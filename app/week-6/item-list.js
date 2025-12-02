@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ItemConstruct from "./item.js";
+import Item from "./item.js";
 import itemNameCategory from "./items.json";
 
 
@@ -11,9 +11,6 @@ export default function ItemList(){
     let filter = itemNameCategory.map((item) => ( {item} ) );
 
     let [sortBy, setSortBy] = useState("name");
-
-    const handleNameChange = (event) => setSortBy(event.target.value);
-    const handleCategoryChange = (event) => setSortBy(event.target.value);
 
     filter.sort((a, b) => {
         if (sortBy === "name") {
@@ -43,8 +40,8 @@ export default function ItemList(){
             </div>
 
             <div className="items-center flex flex-row flex-wrap justify-center">
-            {filter.map(({item}) => (
-                <ItemConstruct 
+            {filter.map(( {item} ) => (
+                <Item 
                     key={item.id}
                     name={item.name}
                     quantity={item.quantity}
