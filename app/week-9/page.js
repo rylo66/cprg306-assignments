@@ -46,7 +46,7 @@ export default function SignInPage() {
                         <button
                             type="button"
                             onClick={handleSignOut}
-                            className="text-lg bg-purple-500 text-white rounded px-2 py-1 mt-4 hover:bg-purple-600 cursor-pointer border-1 border-white">
+                            className="text-lg bg-purple-500 text-white rounded m-4 hover:bg-purple-600 cursor-pointer border-1 border-white">
                             Sign Out
                         </button>
                     </div>
@@ -56,7 +56,7 @@ export default function SignInPage() {
                     <button
                         type="button"
                         onClick={handleSignIn}
-                        className="text-lg bg-purple-500 text-white rounded px-2 py-1 mt-4 hover:bg-purple-600 cursor-pointer border-1 border-white">
+                        className="text-lg bg-purple-500 text-white rounded m-4 hover:bg-purple-600 cursor-pointer border-1 border-white">
                         Sign In with GitHub
                     </button>
                 </section >
