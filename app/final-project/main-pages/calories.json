@@ -21,7 +21,7 @@
       605
     ],
     "source": "Harvard Health Publishing - Calories burned in 30 minutes for people of three different weights",
-    "note": "Values above the original 125/155/185 inputs are extrapolated per activity using a constant per-30lb step derived from available inputs."
+    "note": "Values above the original 125/155/185, everything after that is an estimate based on linear progression."
   },
   "categories": [
     {
